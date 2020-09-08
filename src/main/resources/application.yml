@@ -1,0 +1,19 @@
+#canal配置
+canal:
+  host: 192.168.195 #host ip,不填默认为127.0.0.1
+  port: 11111 #端口号, 不填默认为1111
+  destination: example #不填默认为example
+  userName: canal #不填默认为example
+  password: canal #不填默认为example
+  batchSize: 1000 #批次, 不填默认为1000
+  filter: test.t1 #数据库,表过滤器,多个过滤器用逗号隔开 不填默认为全部数据库和表
+  custom: true #true 为自定义表处理 , false为全局统一处理
+
+
+redis:
+  table:
+    key: 20200907_test #redis中的key
+  sync:
+    update:
+      coloum : id #数据同步时, 根据某一列做数据修改
+
