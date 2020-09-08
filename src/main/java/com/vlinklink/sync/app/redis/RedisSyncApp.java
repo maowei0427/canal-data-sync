@@ -1,5 +1,6 @@
-package com.vlinklink.sync.app;
+package com.vlinklink.sync.app.redis;
 
+import com.vlinklink.sync.app.DataSyncApp;
 import com.vlinklink.sync.conf.CanalConfig;
 import com.vlinklink.sync.event.EventInfo;
 import com.vlinklink.sync.service.EventHandlerFactory;

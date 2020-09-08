@@ -1,7 +1,8 @@
-package com.vlinklink.sync.service;
+package com.vlinklink.sync.service.redis;
 
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.otter.canal.protocol.CanalEntry;
+import com.vlinklink.sync.service.IEventHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -14,7 +15,7 @@ import org.springframework.stereotype.Service;
  * @time 15:34
  */
 @Service
-public class RedisDeleteHandler implements IEventHandler{
+public class RedisDeleteHandler implements IEventHandler {
 
     @Autowired
     private RedisHandler redisHandler;

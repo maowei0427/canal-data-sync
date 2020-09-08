@@ -1,9 +1,10 @@
-package com.vlinklink.sync.service;
+package com.vlinklink.sync.service.redis;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.otter.canal.protocol.CanalEntry;
 import com.vlinklink.sync.redis.util.RedisUtil;
+import com.vlinklink.sync.service.DataParser;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

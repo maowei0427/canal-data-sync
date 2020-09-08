@@ -1,6 +1,6 @@
 package com.vlinklink.sync;
 
-import com.vlinklink.sync.app.RedisSyncApp;
+import com.vlinklink.sync.app.redis.RedisSyncApp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
